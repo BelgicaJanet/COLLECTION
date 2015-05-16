@@ -6,6 +6,7 @@
 
    <display-name>Spring MVC Application</display-name>
 
+<<<<<<< HEAD
 	<context-param>
     	<param-name>contextClass</param-name>
     	<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
@@ -16,6 +17,8 @@
 	</listener>
 
 
+=======
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
    <servlet>
       <servlet-name>Collection</servlet-name>
       <servlet-class>

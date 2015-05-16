@@ -22,7 +22,10 @@
 	</properties>
 
 	<dependencies>
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -56,12 +59,15 @@
 	      <type>jar</type>
 	    </dependency>
 
+<<<<<<< HEAD
 		<dependency>
 	    <groupId>jstl</groupId>
 	    <artifactId>jstl</artifactId>
 	    <version>1.2</version>
 	</dependency>
 
+=======
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 	</dependencies>
 
 

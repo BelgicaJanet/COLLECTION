@@ -1,5 +1,6 @@
 <!-- p2 --><%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	
@@ -189,6 +190,76 @@
 							<div class="section">
 							 
 	<form:form method="post" action="addProducto.htm">	
+=======
+		
+		<!DOCTYPE html>
+		<html>
+		<head lang="es">
+		<meta charset="UTF-8"/> 
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+			<title>Regitro de Producto</title>
+		</head>
+
+	<style>
+	*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+nav{
+
+	width: 100%;
+	height: 122px;
+	background-color: #000000;
+
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li a{
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;	
+			padding: 42px  55px;
+			display: block;
+
+}
+
+nav li a:hover{
+	background-color: #434343;
+}
+nav > ul > li{
+	float: left;
+
+}
+	
+	</style>
+
+		<body>
+		<header>	
+		<center><img src="http://i61.tinypic.com/35k3bzl.jpg" border="0" alt="Image and video hosting by TinyPic"></center>
+		<nav>
+		
+				<ul>
+					<li><a href="RegistrarProducto.htm"><h4>Registro de Producto</h4></a></li>
+					<li><a href="ActualizarStock.htm"><h4>Actualizar Stock</h4></a></li>
+					<li><a href="RegistrarCliente.htm"><h4>Registrar Cliente</h4></a></li>
+					<li><a href="#"><h4>Visualizar Producto</h4></a></li>
+				</ul>
+		</nav>
+	</header>
+		
+		<p>
+		<form:form method="post" action="addProducto.htm">	
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 		<center> 
 		
 		<h2> <br> CODIGO:74554785</h2>	
@@ -228,6 +299,7 @@
 				  <input type="submit"  value="Guardar" style="padding: 5px 31px" >
 		</center>
 		</form:form>
+<<<<<<< HEAD
 							</div>
 						</div>
 						<!-- MAIN CONTENT -->
@@ -540,3 +612,8 @@
 
 <!-- Mirrored from ninetheme.com/themes/commercahtml/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 May 2015 23:37:50 GMT -->
 </html>
+=======
+
+		</body>
+		</html>
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f

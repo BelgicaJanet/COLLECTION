@@ -19,11 +19,16 @@ public class Cliente {
 	
 	@NotNull
 	@Size(min=1,max=20)
+<<<<<<< HEAD
 	private String firstname;
+=======
+	private String name;
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 	
 	@NotNull
 	@Size(min=1,max=20)
 	private String lastname;
+<<<<<<< HEAD
 	
 	@NotNull
 	@Size(min=1,max=20)
@@ -38,6 +43,8 @@ public class Cliente {
 	private String password2;
 	
 	
+=======
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 	private String email;
 	
 	@Min(0)
@@ -106,6 +113,7 @@ public class Cliente {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
+<<<<<<< HEAD
 	public String getFirstname() {
 		return firstname;
 	}
@@ -131,5 +139,13 @@ public class Cliente {
 		this.password2 = password2;
 	}
 
+=======
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+>>>>>>> 7445760a6ed9e44ffc484719bc9a61d6653ae46f
 	
 }
